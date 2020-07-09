@@ -1,0 +1,88 @@
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+.box-title{
+    background-color:#cee397 !important;
+}
+.box-body{
+    background-color:#ddf3f5 !important;
+}
+.ticket-box{
+    background-color:#e8ead3 !important;
+}
+.box-shadow-style{
+    box-shadow: 2px 2px 5px -1px #888888;
+}
+.number-box{
+    background-color:black !important;
+    color:white !important;
+}
+.counter.counter-lg {
+    top: -24px !important;
+}
+.players-list{
+    max-height : 330px;
+    overflow-y: auto;
+}
+.prize-list{
+    max-height : 330px;
+    overflow-y: auto;
+}
+.winners-list{
+    max-height : 330px;
+    overflow-y: auto;
+}
+.latest-announced-number{
+    cursor: pointer;
+    padding: 10px !important;
+    color:white;
+    font-weight:bold;
+    background-color:royalblue;
+    border-radius: 5%;
+    width: 20px !important;
+    height: 20px !important;
+    box-shadow: 2px 2px 5px 0px #888888;
+}
+.count-box{
+    background-color: #ffffff;
+    color: #6d727b ;
+    height: 100px;
+    box-shadow: 0 1px 6px #8ab7c5;
+    -webkit-box-shadow: 0 1px 6px #8ab7c5;
+    transition: 0.7s;
+}
+.ticket_cell{
+    border: 1px solid black !important;
+}
+.blank_cell{
+    background-color: #8ab7c5 !important;
+} 
+.unmarked_cell{
+    background-color: #e28ca8 !important;
+    cursor: pointer !important;
+} 
+.unmarked_cell:hover{
+    background-color: #b75273 !important;
+    color:white !important;
+}
+.marked_cell{
+    background-color: #b75273 !important;
+    color:white !important;
+}
+
+.ticket-table{
+    box-shadow: 2px 3px 5px -2px #888888;
+    border: 2px solid #242020 !important;
+}
+.claim-btn{
+    border : none;
+    background-color: #e49f38 !important;
+    color:white !important;
+}
+
+.box-border{
+    border: 1px solid #b9b6b6 !important;
+}

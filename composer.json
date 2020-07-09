@@ -1,0 +1,17 @@
+{
+    "name": "swapnilmahadik.com/online_housie",
+    "description": "Play housie online",
+    "require": {
+        "php": ">=5.3.7",
+        "kreait/firebase-php": "^5.0",
+        "twbs/bootstrap": "4.0.0",
+        "vlucas/phpdotenv": "^3.5",
+        "robmorgan/phinx": "^0.12.3"
+    },
+    "authors": [
+        {
+            "name": "Swapnil Mahadik",
+            "email": "swap.1710@gmail.com"
+        }
+    ]
+}

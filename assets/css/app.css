@@ -1,0 +1,6 @@
+.unclickable  { text-decoration: none !important;  }
+.unclickable:hover { cursor: default !important; }
+
+.iwt{
+    display:block;
+}
