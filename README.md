@@ -4,8 +4,8 @@ Play Online Housie
 Download Repository
 -------------------
 
-    git clone https://github.com/lyrixx/Silex-Kitchen-Edition
-    cd Silex-Kitchen-Edition
+    git clone https://github.com/swap1710/housie.git
+    cd housie
 
 
 Donload and install composer
@@ -13,7 +13,8 @@ Donload and install composer
 
     https://getcomposer.org/download/
 
-### Update Dependancies via composer
+Update Dependancies via composer
+--------------------------------
 
     composer update
    
