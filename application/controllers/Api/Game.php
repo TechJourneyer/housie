@@ -142,8 +142,13 @@ class Game extends CI_Controller {
 					$details = $this->game_model->setLiveGameDetails($gameUsersDetails,$userId,$announcedNumbers);
 					
 					$totalCollectedAmount = ($status == 'booking_open') ? 100 :  ($details['total_ticket_count'] * $ticketPrice);
-					foreach ($details['prizes'] as $key => $value) {
-						$details['prizes'][$key]['prize_value'] = amount_format($totalCollectedAmount * $value['prize_value'] / 100); 
+					if(isset($details['prizes'])){
+						foreach ($details['prizes'] as $key => $value) {
+							$details['prizes'][$key]['prize_value'] = amount_format($totalCollectedAmount * $value['prize_value'] / 100); 
+						}
+					}
+					else{
+						$details['prizes'] = [];
 					}
 					
 					$output = [
