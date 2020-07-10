@@ -62,7 +62,11 @@ function decrypt($encryption){
 
 ## Send Response Methods : start  
 function response($result , $status = 'success' , $message = '' ,$errorCode = false ){
-    ob_clean();
+    // Clean output buffer
+    if (ob_get_level() !== 0 && @ob_end_clean() === FALSE)
+    {
+        @ob_clean();
+    }
     header('Content-Type: application/json');
     $output =  [
         'result' => $result,
